@@ -1,0 +1,50 @@
+.header__inner {
+  min-height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px;
+  p {
+    display: none;
+    font-size: 16px;
+    font-weight: 500;
+  }
+}
+
+.header__name {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 40px;
+  padding-left: 12px;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.header__first_points, .header__second-points {
+  display: flex;
+  align-items: center;
+}
+
+.header__second-points {
+  overflow: scroll;
+  width: 135px;
+  padding: 15px 0 0 0;
+}
+
+.header__first_points .header__divider {
+  display: block;
+  order: 1;
+}
+
+.header__elem1, .header__elem2, .header__elem3,
+.header__elem4, .header__elem5, .header__elem7,
+.header__elem8, .header__divider{
+  margin: 0 8px 0 8px;
+}
+
+.header__nleft {
+  position: absolute;
+  left: 0;
+  z-index: 0;
+}

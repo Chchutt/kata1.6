@@ -1,0 +1,35 @@
+.micro-menu__container{
+  display: flex;
+  flex-flow: row nowrap;
+  overflow: scroll;
+  align-items: center;
+  padding: 0 0 0 16px;
+  width: 100%;
+  margin: 24px 0 24px 0;
+}
+
+.micro-menu__container * {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  height: 40px;
+  width: 240px;
+  padding: 0;
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: inline;
+}
+
+.micro-menu--active{
+  border: 2px solid #B8FFEC;
+  border-radius: 6px;
+}
+.text-2,
+.text-3{
+  display:none;
+}
