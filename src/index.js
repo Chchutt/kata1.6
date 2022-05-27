@@ -1,6 +1,6 @@
 import "./scss/style.scss";
 import "./js/swiper.js";
-
+import "./js/showallbtn.js"
 
 // Img brands
 import './img/brands/lenovo.svg';
