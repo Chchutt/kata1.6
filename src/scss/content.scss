@@ -1,3 +1,11 @@
+.main-content{
+ @media (min-width: $screen-lg){
+   max-width: 1120px;
+ }
+}
+header{
+
+}
 .content__container{
   display: flex;
   flex-direction: column;
@@ -5,6 +13,17 @@
   padding:0 16px 0 16px;
   font-size: 14px;
   flex-basis: 50%;
+  margin-left: 32px;
+  @media (max-width:$screen-md){
+    margin-left: 0;
+  }
+  @media (min-width:$screen-md){
+    min-width: $screen-md;
+    margin-bottom: 50px;
+  }
+  @media (min-width:$screen-lg){
+    min-width: $screen-lg;
+  }
 }
 .content__btn-next {
   display: flex;
@@ -18,14 +37,35 @@
   font-weight: 500;
   }
 }
-
-.content__container{
-  flex-basis: 100%;
-}
-.content-img{
-  flex-basis:50%;
-  max-height: 230px ;
-  img {
-    max-width: 100%;
+.content__text{
+  @media (min-width:$screen-md){
+    flex-basis: 50%;
+    max-width: 312px;
+  }
+  @media (min-width:$screen-lg){
+    flex-basis: 50%;
+    max-width: 490px;
   }
 }
+.content__img{
+  flex-basis:50%;
+  max-height: 230px;
+  @media (min-width:$screen-lg){
+    max-height: 531px ;
+    margin-right: 28px;
+    margin-left: 38px;
+  }
+}
+  .content__img img {
+    width: auto;
+    height: 230px;
+  @media (min-width:$screen-md){
+    height: 260px ;
+    margin-right: 25px;
+    margin-left: 38px;
+  }
+
+}
+  .text__2{
+    display: none;
+  }

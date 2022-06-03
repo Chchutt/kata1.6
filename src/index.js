@@ -1,7 +1,9 @@
 import "./scss/style.scss";
 import "./js/swiper.js";
-import "./js/showallbtn.js"
-
+import "./js/showallbtn.js";
+import "./js/Burger-menu-btn.js";
+import "./js/Micro-menu-active.js";
+import "./js/action-btns.js";
 // Img brands
 import './img/brands/lenovo.svg';
 import "./img/brands/samsung.svg";
@@ -35,6 +37,7 @@ import "./img/helpers/go.svg";
 import "./img/helpers/button.svg";
 import "./img/helpers/dropdown.svg";
 import "./img/helpers/expand.svg";
+import "./img/helpers/Group 10.svg";
 
 // Img logo
 import "./img/logo/Group.svg";

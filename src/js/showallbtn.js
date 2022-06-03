@@ -3,6 +3,8 @@ const showAlltext = document.querySelector(".brands-text__show-all");
 const brand9 = document.querySelector(".brand-9");
 const brand10 = document.querySelector(".brand-10");
 const brand11 = document.querySelector(".brand-11");
+const contentSelector = document.querySelector(".text__2")
+const contentSelectorBnt = document.querySelector(".content__btn-next")
 let statusMenuOpenedBrand = true;
 showAll.addEventListener("click", function (){
   if (statusMenuOpenedBrand) {
@@ -19,3 +21,15 @@ showAll.addEventListener("click", function (){
     statusMenuOpenedBrand = true;
   }
 })
+let statusContent = true;
+contentSelectorBnt.addEventListener("click", function (evt) {
+  evt.preventDefault();
+  if (statusContent){
+    contentSelector.style.display = "inline";
+    statusContent = false;
+  } else{
+    contentSelector.style.display = "none";
+    statusContent = true;
+  }
+})
+
