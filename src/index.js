@@ -43,5 +43,5 @@ import "./img/helpers/Group 10.svg";
 import "./img/logo/Group.svg";
 
 // Img src
-import "./img/_MG_3223(3).jpg";
+import "./img/bigpic.jpg";
 
