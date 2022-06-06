@@ -10,7 +10,8 @@
     position: fixed;
     z-index: 150;
     box-shadow: rgba(0,0,0,.5) 0 0 0 1200px;
-    top:0 ;
+    top:0;
+    right: 0;
   @media (min-width: $screen-lg){
     width: 440px;
     height: 100%;

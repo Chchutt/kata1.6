@@ -1,6 +1,7 @@
 .swiper-wrapper{
   @media (min-width: 768px) {
     flex-wrap: wrap;
+    justify-content: center;
   }
 }
 

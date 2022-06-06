@@ -48,16 +48,5 @@ ul a{
   border-radius: 6px;
   background-color: white;
 }
-.text-2{
-  display:none;
-  @media (min-width: $screen-md){
-    display: block;
-  }
-}
-.text-3{
-  display:none;
-  @media (min-width: $screen-lg){
-    display: block;
-  }
-}
+
 

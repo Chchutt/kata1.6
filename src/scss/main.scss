@@ -4,130 +4,19 @@ body{
     margin:0;
     @media (min-width: $screen-lg){
       display: flex;
+      min-width: $screen-lg;
     }
-  @media (min-width: 1560px){
+    @media (min-width: $screen-md){
+    min-width: $screen-md;
+    }
+    @media (min-width: 1560px){
     display: flex;
     justify-content: center;
   }
 }
 
-
-//.content-box{
-//    display: flex;
-//    flex-direction: column;
-//    justify-content: flex-start;
-//    padding:0 16px 0 16px;
-//    font-size: 14px;
-//}
-//.content__btn-next{
-//    display: flex;
-//    align-items: center;
-//}
-//.content__btn-next a {
-//    padding-left: 16px;
-//    font-size: 16px;
-//    text-align: left;
-//    text-decoration: none;
-//    color: #1B1C21;
-//    font-weight: 500;
-//}
-//
-//.content__container{
-//    flex-basis: 100%;
-//}
-//.content-box{
-//    flex-basis: 50%;
-//}
-//.content-img{
-//    flex-basis:50%;
-//    max-height: 230px ;
-//}
-//.content-img img{
-//    width: 100%;
-//}
-
-
-
-
-//@media (min-width: 1220px) {
-//  .header__name {
-//    top: 25px;
-//    position: absolute;
-//    padding: 10px;
-//  }
-//  .header__first_points,
-//  .header__divider {
-//    display: none;
-//  }
-//  .header__nleft {
-//    position: absolute;
-//    left: 0;
-//
-//  }
-//
-//  .header__second-points .header__elem3 {
-//    display: none;
-//  }
-//  .header__second-points .header__elem4 {
-//    display: none;
-//  }
-//  .header__second-points .header__elem5 {
-//    display: none;
-//  }
-//  .header__elem7,
-//  .header__elem8 {
-//    display: flex;
-//    justify-content: space-between;
-//    align-items: center;
-//    margin-right: 32px;
-//  }
-//  .header__inner p {
-//    display: block;
-//    letter-spacing: -0.2px;
-//    padding-right: 8px;
-//  }
-//}
-//    .micro-menu__container{
-//        flex-wrap: wrap;
-//        width: 1320px;
-//    }
-//    .text-3{
-//        display: block;
-//    }
-//    .content-img{
-//        max-height: 383px ;
-//        margin-right: 28px;
-//        margin-left: 38px;
-//    }
-//    .content-img img{
-//        width: 100%;
-//    }
-//    .text-3{
-//        display: inline;
-//    }
-//}
 @media (min-width: 768px){
-    //.header__second-points {
-    //    overflow: auto;
-    //    width: 100%;
-    //    justify-content: flex-end;
-    //}
-    //.header__first_points .header__divider{
-    //    display: block;
-    //    order: 1;
-    //}
-    //.header__elem1 {
-    //    order: 1;
-    //}
-    //.header__elem2{
-    //    order: 2;
-    //}
-    //.header__elem3,
-    //.header__elem4,
-    //.header__elem5{
-    //    display: block;
-    //    margin-left: 16px;
-    //}
+
     .content__container{
         display: flex;
         flex-direction: row;

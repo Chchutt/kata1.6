@@ -10,9 +10,12 @@
   background: white;
   color:$color-active;
   border-top: 1px solid $color-second;
-
   @media (min-width: $screen-md) {
     min-width: 700px;
+    height: 56px;
+  }
+  @media (min-width: $screen-lg) {
+    min-width: 1470px;
     height: 56px;
   }
 

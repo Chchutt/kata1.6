@@ -20,15 +20,20 @@ header{
   @media (min-width:$screen-md){
     min-width: $screen-md;
     margin-bottom: 50px;
+    transform: translateY(0);
   }
   @media (min-width:$screen-lg){
     min-width: $screen-lg;
+    transform: translateY(0);
+  }
+  @media (max-width: 500px) {
+    transform: translateY(-50px);
+
   }
 }
 .content__btn-next {
   display: flex;
   align-items: center;
-  cursor: pointer;
   a {
   padding-left: 16px;
   font-size: 16px;
@@ -56,10 +61,16 @@ header{
     margin-right: 28px;
     margin-left: 38px;
   }
+  @media (max-width: 600px) {
+    margin-top: 16px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+
+  }
 }
   .content__img img {
     width: auto;
-    height: 230px;
+    height: 168px;
   @media (min-width:$screen-md){
     height: 260px ;
     margin-right: 25px;
