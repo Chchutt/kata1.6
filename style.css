@@ -1,5 +1,5 @@
 @font-face {
-  font-family: "TT Lakes";
+  font-family: "TTLakes";
   src: url("/src/fonts/TTLakes-Medium.ttf");
 }
 html {
@@ -14,7 +14,7 @@ body {
   padding: 0;
   margin: 0 0 0 0;
   overflow-x: hidden;
-  font-family: TT Lakes serif;
+  font-family: "TTLakes", serif;
   background: #F8F8F8;
 }
 
@@ -454,7 +454,7 @@ ul a {
 }
 
 body {
-  font-family: "TT Lakes", sans-serif;
+  font-family: "TTLakes", sans-serif;
   padding: 0;
   margin: 0;
 }
