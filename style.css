@@ -1079,5 +1079,9 @@ textarea {
     width: 33%;
   }
 }
+@font-face {
+  font-family: "TTLakes";
+  src: url("/src/fonts/TTLakes-Medium.ttf");
+}
 
 /*# sourceMappingURL=style.css.map*/
