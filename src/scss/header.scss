@@ -58,6 +58,7 @@
 .header__elem4, .header__elem5, .header__elem7,
 .header__elem8, .header__divider{
   margin: 0 8px 0 8px;
+  cursor: pointer;
   @media (min-width:$screen-lg){
     display:none;
   }
