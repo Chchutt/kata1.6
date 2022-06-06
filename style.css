@@ -80,6 +80,7 @@ body {
 .header__elem4, .header__elem5, .header__elem7,
 .header__elem8, .header__divider {
   margin: 0 8px 0 8px;
+  cursor: pointer;
 }
 @media (min-width: 1440px) {
   .header__elem1, .header__elem2, .header__elem3,
@@ -327,6 +328,7 @@ body {
 .content__btn-next {
   display: flex;
   align-items: center;
+  cursor: pointer;
 }
 .content__btn-next a {
   padding-left: 16px;
