@@ -1,4 +1,5 @@
 import "./scss/style.scss";
+import "./scss/fonts.scss";
 import "./js/swiper.js";
 import "./js/showallbtn.js";
 import "./js/Burger-menu-btn.js";
