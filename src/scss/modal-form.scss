@@ -4,15 +4,18 @@
     justify-content: flex-start;
     align-items: center;
     width: 320px;
-    height: 1200px;
+    height: 100%;
     background-color: $color-blocks;
     display: none;
     position: fixed;
     z-index: 150;
+    box-shadow: rgba(0,0,0,.5) 0 0 0 1200px;
+    top:0 ;
   @media (min-width: $screen-lg){
     width: 440px;
     height: 100%;
     position: fixed;
+    box-shadow: rgba(0,0,0,.5) 0 0 0 3000px;
     top:0;
     right: 0;
   }
@@ -83,4 +86,6 @@ textarea{
 .activef{
   display: flex;
 }
+
+
 

@@ -1,10 +1,14 @@
 body{
-  font-family: TT Lakes serif;;
+  font-family: "TT Lakes", sans-serif;
     padding:0;
     margin:0;
     @media (min-width: $screen-lg){
       display: flex;
     }
+  @media (min-width: 1560px){
+    display: flex;
+    justify-content: center;
+  }
 }
 
 
