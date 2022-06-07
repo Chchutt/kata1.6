@@ -3,6 +3,11 @@
     flex-wrap: wrap;
     justify-content: center;
   }
+  @media (min-width: 1440px) {
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
+
 }
 
 .swiper-pagination{

@@ -16,7 +16,7 @@
   height: 56px;
   margin: 16px 0 0 0;
   padding: 0 0 0 20px;
-  background: $color-blocks;
+  background: linear-gradient(90deg, rgb(248, 248, 248) , rgb(255, 255, 255));
   color:$color-active;
   border-top: 1px solid $color-second;
 
@@ -99,7 +99,7 @@
   @media (min-width: $screen-md) {
     display: block;
     text-align: left;
-    margin: 12px 0 0 20px;
+    margin: 12px 20px 0 20px;
     border-radius: 6px;
     border: 0 solid;
     padding: 0;
@@ -111,6 +111,19 @@
   background: $color-background;
   height: 64px;
 }
+.price_menu__head td:nth-child(1) {
+  width: 50%;
+}
+.price_menu__head  td:nth-child(2) {
+    width: 20%;
+    padding: 0;
+}
+
+.price_menu__head  td:nth-child(3) {
+    width: 15%;
+    padding: 0;
+}
+
 
 .price__table {
   border-collapse: collapse;

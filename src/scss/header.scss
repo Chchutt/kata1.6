@@ -10,6 +10,9 @@
   align-items: center;
   background-color: white;
   padding-top: 10px;
+  @media (min-width: $screen-lg){
+    background-color: $color-background;
+  }
   p {
     display: none;
     font-size: 16px;
