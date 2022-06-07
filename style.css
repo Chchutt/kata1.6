@@ -529,7 +529,6 @@ body {
 }
 @media (min-width: 1440px) {
   .brands-menu__title {
-    min-width: 1470px;
     height: 56px;
   }
 }
@@ -788,7 +787,6 @@ textarea {
 }
 @media (min-width: 1440px) {
   .view-tech-menu__title {
-    min-width: 1470px;
     height: 56px;
   }
 }
@@ -937,7 +935,6 @@ textarea {
 }
 @media (min-width: 1440px) {
   .price-menu__title {
-    min-width: 1470px;
     height: 56px;
   }
 }
