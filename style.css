@@ -32,6 +32,11 @@ body {
   background-color: white;
   padding-top: 10px;
 }
+@media (min-width: 1440px) {
+  .header__inner {
+    background-color: #F8F8F8;
+  }
+}
 .header__inner p {
   display: none;
   font-size: 16px;
@@ -512,7 +517,7 @@ body {
   height: 80px;
   margin: 16px 0 0 0;
   padding: 0 0 0 20px;
-  background: white;
+  background: linear-gradient(90deg, rgb(248, 248, 248), rgb(255, 255, 255));
   color: #7E7E82;
   border-top: 1px solid #B8FFEC;
 }
@@ -631,6 +636,12 @@ body {
   .swiper-wrapper {
     flex-wrap: wrap;
     justify-content: center;
+  }
+}
+@media (min-width: 1440px) {
+  .swiper-wrapper {
+    flex-wrap: wrap;
+    justify-content: flex-start;
   }
 }
 
@@ -765,7 +776,7 @@ textarea {
   height: 80px;
   margin: 16px 0 0 0;
   padding: 0 0 0 20px;
-  background: white;
+  background: linear-gradient(90deg, rgb(248, 248, 248), rgb(255, 255, 255));
   color: #7E7E82;
   border-top: 1px solid #B8FFEC;
 }
@@ -914,7 +925,7 @@ textarea {
   height: 56px;
   margin: 16px 0 0 0;
   padding: 0 0 0 20px;
-  background: white;
+  background: linear-gradient(90deg, rgb(248, 248, 248), rgb(255, 255, 255));
   color: #7E7E82;
   border-top: 1px solid #B8FFEC;
 }
@@ -1003,7 +1014,7 @@ textarea {
   .price-menu__table {
     display: block;
     text-align: left;
-    margin: 12px 0 0 20px;
+    margin: 12px 20px 0 20px;
     border-radius: 6px;
     border: 0 solid;
     padding: 0;
@@ -1014,6 +1025,20 @@ textarea {
 .price_menu__head {
   background: #F8F8F8;
   height: 64px;
+}
+
+.price_menu__head td:nth-child(1) {
+  width: 50%;
+}
+
+.price_menu__head td:nth-child(2) {
+  width: 20%;
+  padding: 0;
+}
+
+.price_menu__head td:nth-child(3) {
+  width: 15%;
+  padding: 0;
 }
 
 .price__table {
